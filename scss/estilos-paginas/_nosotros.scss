@@ -1,0 +1,23 @@
+.nosotros {
+    background: linear-gradient 15deg, #9acef6, #ffffff;
+    h1 {
+        font-size: 3rem;
+        }
+    p {
+    font-size: 2rem;
+    }
+    iframe {
+    width: 60vw;
+    }
+}
+
+@media (min-width: 850px) {
+    .nosotros {
+            iframe {
+            margin-bottom: 25px;
+            width: 70vw;
+            height: 50vw;
+        }
+    }
+}
+

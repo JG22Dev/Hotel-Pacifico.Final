@@ -1,0 +1,13 @@
+@import "componentes/header";
+@import "estilos-paginas/index";
+@import "estilos-paginas/habitaciones";
+@import "estilos-paginas/nosotros";
+@import "estilos-paginas/galeria";
+@import "estilos-paginas/contacto";
+@import "componentes/footer";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
