@@ -1,7 +1,6 @@
 
-
-
 //Base 
+@import"base/resets";
 @import"base/variables";
 @import"base/mixin";
 @import"base/mediaqueries";
@@ -18,8 +17,4 @@
 
 @import "componentes/footer";
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
