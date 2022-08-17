@@ -1,5 +1,5 @@
 .carousel-inner .carousel-item img {
     margin: 2px;
     padding: 2px;
-    border: 2px groove #013461;
+    border: 2px groove map-get($colors , color-three );
 }

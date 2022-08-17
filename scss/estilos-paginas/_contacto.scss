@@ -1,10 +1,10 @@
 .containerForm {
     border-radius: 1%;
-    background-color: #9fc7eb;
+    background-color: map-get($colors , color-four );
   }
   
   .InformationContact {
-    background-color: #9fc7eb;
+    background-color: map-get($colors , color-four );
     border-radius: 2%;
     padding: 14px;
   }

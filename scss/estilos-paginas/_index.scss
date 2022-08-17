@@ -1,6 +1,6 @@
 
 .intro-section {
-    background-color: #ffffff;
+    background-color: map-get($colors , color-one );
     padding: 4rem 0 0 0;
 }
 
@@ -13,12 +13,12 @@
     justify-content: center;
     min-height: 100vh;
         h2 {
-    color: #ffffff;
+    color: map-get($colors , color-one);
     font-size: 3rem;
     padding: 25px;
     }
         p {
-    color: #ffffff;
+    color: map-get($colors , color-one );
     font-size: 1.7rem;
     padding: 25px;
     }

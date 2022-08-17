@@ -34,7 +34,7 @@
   margin: 20px;
   border-radius: 6px;
   overflow: hidden;
-  background: #d8efff;
+  background: #ffffff;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: all 400ms ease;
@@ -73,7 +73,7 @@
 }
 
 .nosotros {
-  background: linear-gradient 15deg, #9acef6, #ffffff;
+  background: linear-gradient 15deg, #9fc7eb #ffffff;
 }
 .nosotros h1 {
   font-size: 3rem;
@@ -95,7 +95,7 @@
 .carousel-inner .carousel-item img {
   margin: 2px;
   padding: 2px;
-  border: 2px groove #013461;
+  border: 2px groove #13314a;
 }
 
 .containerForm {

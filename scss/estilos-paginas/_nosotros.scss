@@ -1,5 +1,5 @@
 .nosotros {
-    background: linear-gradient 15deg, #9acef6, #ffffff;
+    background: linear-gradient 15deg, map-get($colors , color-four) map-get($colors , color-one );
     h1 {
         font-size: 3rem;
         }

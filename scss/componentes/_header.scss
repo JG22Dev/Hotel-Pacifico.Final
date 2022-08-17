@@ -1,6 +1,6 @@
 .nav-link {
-    color: #337ab7;
+    color: map-get($colors , color-two );
     &:hover {
-        color: #13314a;
+        color: map-get($colors , color-three );
 }
 }
