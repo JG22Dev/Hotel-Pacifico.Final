@@ -1,7 +1,7 @@
 
 .intro-section {
     background-color: map-get($colors , color-one );
-    padding: 4rem 0 0 0;
+    @include home(4rem 0 0 0)
 }
 
 #home {
@@ -15,11 +15,11 @@
         h2 {
     color: map-get($colors , color-one);
     font-size: 3rem;
-    padding: 25px;
+    @include home (25px);
     }
         p {
     color: map-get($colors , color-one );
     font-size: 1.7rem;
-    padding: 25px;
+    @include home(25px);
     }
 }

@@ -4,8 +4,7 @@
   }
   
   .InformationContact {
-    background-color: map-get($colors , color-four );
-    border-radius: 2%;
+    @extend .containerForm;
     padding: 14px;
   }
   

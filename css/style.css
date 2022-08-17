@@ -1,3 +1,15 @@
+@media (min-width: 850px) {
+  .nosotros iframe {
+    margin-bottom: 25px;
+    width: 70vw;
+    height: 50vw;
+  }
+  .ubicacion iframe, .nosotros iframe iframe {
+    margin-bottom: 25px;
+    width: 70vw;
+    height: 50vw;
+  }
+}
 .nav-link {
   color: #337ab7;
 }
@@ -81,31 +93,22 @@
 .nosotros p {
   font-size: 2rem;
 }
-.nosotros iframe {
-  width: 60vw;
+.ubicacion iframe, .nosotros iframe iframe {
+  width: 80vw;
 }
 
-@media (min-width: 850px) {
-  .nosotros iframe {
-    margin-bottom: 25px;
-    width: 70vw;
-    height: 50vw;
-  }
-}
 .carousel-inner .carousel-item img {
   margin: 2px;
   padding: 2px;
   border: 2px groove #13314a;
 }
 
-.containerForm {
+.containerForm, .InformationContact {
   border-radius: 1%;
   background-color: #9fc7eb;
 }
 
 .InformationContact {
-  background-color: #9fc7eb;
-  border-radius: 2%;
   padding: 14px;
 }
 
