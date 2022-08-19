@@ -68,7 +68,7 @@
         </nav>
     </header>
     <main>
-        <div class="container my-5 p-2">
+        <div class="container shadow mt-5 p-2">
             <div class="container-fluid shadow px-2 p-2 my-5 containerForm">
                 <h2 class="fw-bluid">Contactanos</h2> 
                 <form class="">
@@ -106,14 +106,34 @@
                         </div>
                     </div>
                     <div class="mb-3">
-                    <button class="btn btn-primary" type="submit" enabled>Enviar</button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary p-2 m-3" data-bs-toggle="modal" data-bs-target="#exampleModal" required>
+                        Enviar
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">¿Esta todo correcto?</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            Antes de enviar el formulario confirme que esta todo correcto, una vez enviado no se volvera a retornar la accion
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="submit" class=" btn btn-primary" >Enviar</button>
+                            </div>
+                        </div>
+                        </div>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-3 p-3">
                         <button class="btn btn-primary" type="reset" enabled>Resetear</button>
                     </div>
                 </form>
             </div>
-            <div class="InformationContact shadow">
+            <div class="InformationContact">
                 <h4>Información de contacto:</h4>
                 <p>Telefono: +54 9 1132567744</p>
                 <p>Direccion: Francisco Pascasio Moreno 335, San Carlos de Bariloche, Río Negro</p>
