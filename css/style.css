@@ -92,13 +92,16 @@
 }
 
 .nosotros {
-  background: linear-gradient 15deg, #9fc7eb #ffffff;
+  background: #ffffff;
 }
 .nosotros h1 {
   font-size: 3rem;
 }
 .nosotros p {
   font-size: 2rem;
+}
+.ubicacion, .nosotros .nosotros--video iframe {
+  background: #ffffff;
 }
 .ubicacion iframe, .nosotros .nosotros--video iframe iframe {
   width: 60vw;
