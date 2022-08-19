@@ -4,3 +4,8 @@
 @mixin home($padding) {
     padding: $padding;
 }
+
+@mixin iframe {
+    width: 60vw;
+    height: 50vw;
+}

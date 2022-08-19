@@ -2,15 +2,13 @@
     .nosotros {
             iframe {
             margin-bottom: 25px;
-            width: 70vw;
-            height: 50vw;
+            @include iframe;
         }
     }
     .ubicacion {
         iframe{
             margin-bottom: 25px;
-            width: 70vw;
-            height: 50vw;
+            @include iframe;
         }
     }
 }

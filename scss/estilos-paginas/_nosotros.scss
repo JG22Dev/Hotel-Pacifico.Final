@@ -6,13 +6,15 @@
     p {
     font-size: 2rem;
     }
-    iframe {
-    @extend .ubicacion;
+    .nosotros--video{
+        iframe {
+        @extend .ubicacion;
+        }
     }
 }
 .ubicacion{
     iframe{
-        width: 80vw;
+        width: 60vw;
     }
 }
 
