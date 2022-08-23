@@ -11,8 +11,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
-    min-height: 100vh;
-        h2 {
+    min-height: 90vh;
+        h1 {
     color: map-get($colors , color-one);
     font-size: 3rem;
     @include home (25px);

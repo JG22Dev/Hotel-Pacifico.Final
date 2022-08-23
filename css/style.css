@@ -36,9 +36,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 90vh;
 }
-#home h2 {
+#home h1 {
   color: #ffffff;
   font-size: 3rem;
   padding: 25px;
